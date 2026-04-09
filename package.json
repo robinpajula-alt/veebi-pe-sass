@@ -1,0 +1,25 @@
+{
+  "name": "sass-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sass ./sass/index.scss ./css/css=style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robinpajula-alt/veebi-pe-sass.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/robinpajula-alt/veebi-pe-sass/issues"
+  },
+  "homepage": "https://github.com/robinpajula-alt/veebi-pe-sass#readme",
+  "devDependencies": {
+    "sass": "^1.99.0"
+  }
+}
