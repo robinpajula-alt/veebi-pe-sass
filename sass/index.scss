@@ -1,3 +1,5 @@
+@import "default";
+
 $primary-color: tomato;
 $primary-font: sans-serif, "cursive";
 
@@ -19,4 +21,18 @@ body{
             text-decoration: none;
         }
     }
+}
+
+@mixin transform_Me($prop1, $prop2){
+    width: $prop1;
+    height: $prop2;
+    background-color: yellow;
+}
+
+#button1 {
+    @include transform_Me(400px, 500px )
+}
+
+#button2 {
+    @include transform_Me(200px, 300px)
 }
