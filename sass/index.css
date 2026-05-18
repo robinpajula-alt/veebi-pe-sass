@@ -29,8 +29,6 @@ body {
   width: 400px;
   height: 500px;
   background-color: yellow;
-  -ms-transform: rotate(20deg) scale(1.5);
-  -webkit-transform: rotate(20deg) scale(1.5);
   transform: rotate(20deg) sacle(1.5);
   font-size: 3em;
 }
@@ -39,8 +37,6 @@ body {
   width: 200px;
   height: 300px;
   background-color: yellow;
-  -ms-transform: rotate(20deg) scale(1.5);
-  -webkit-transform: rotate(20deg) scale(1.5);
   transform: rotate(20deg) sacle(1.5);
 }
 
@@ -76,6 +72,4 @@ body {
 p:before {
   content: "I am a string with cheese";
   font-family: cursiveserif;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=index.css.map */
