@@ -1,81 +1,17 @@
-html,
-body,
-ul,
-li {
-  margin: 0;
-  padding: 0;
-}
+/* Error: Can't find stylesheet to import.
+ *   ,
+ * 1 | @import 'defualt';
+ *   |         ^^^^^^^^^
+ *   '
+ *   sass/index.scss 1:9  root stylesheet */
 
-body {
-  background: tomato;
-  font-family: sans-serif, "cursive";
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Can't find stylesheet to import.\a   \2577 \a 1 \2502  @import 'defualt';\a   \2502          ^^^^^^^^^\a   \2575 \a   sass/index.scss 1:9  root stylesheet";
 }
-
-.container {
-  width: 100%;
-  height: 100px;
-}
-.container nav ul li:nth-child(1) {
-  font-size: 1em;
-}
-.container nav ul li:nth-child(2) {
-  font-size: 2em;
-}
-.container nav a {
-  text-decoration: none;
-}
-
-#button1 {
-  width: 400px;
-  height: 500px;
-  background-color: yellow;
-  -ms-transform: rotate(20deg) scale(1.5);
-  -webkit-transform: rotate(20deg) scale(1.5);
-  transform: rotate(20deg) sacle(1.5);
-  font-size: 3em;
-}
-
-#button2 {
-  width: 200px;
-  height: 300px;
-  background-color: yellow;
-  -ms-transform: rotate(20deg) scale(1.5);
-  -webkit-transform: rotate(20deg) scale(1.5);
-  transform: rotate(20deg) sacle(1.5);
-}
-
-.border1, .border {
-  border: 1px solid #ccc;
-  padding: 10px;
-  color: #333;
-  font-size: 1em;
-}
-
-.border1 {
-  margin: 20px;
-}
-
-.element a {
-  text-decoration: none;
-  color: black;
-}
-.element a:hover {
-  color: white;
-}
-
-.header {
-  font-size: 6px;
-  height: 75%;
-}
-
-.multi {
-  width: 100%;
-  height: 6px;
-}
-
-p:before {
-  content: "I am a string with cheese";
-  font-family: cursiveserif;
-}
-
-/*# sourceMappingURL=style.css.map */
